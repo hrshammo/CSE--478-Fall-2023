@@ -30,11 +30,11 @@ Depression is a prevalent mental health condition that affects millions of peopl
 
 To use the Depression Detection System:
 
-1. **Data Collection**: Gather text data from users or relevant sources, such as social media posts or surveys.
+1. **Data Collection**: Gather data from users or relevant sources, such as social media posts or surveys.
 
-2. **Data Preprocessing**: Preprocess the text data to clean and format it for analysis.
+2. **Data Preprocessing**: Preprocess the data to clean and format it for analysis.
 
-3. **Run the System**: Execute the system, providing the preprocessed text data as input.
+3. **Run the System**: Execute the system, providing the preprocessed data as input.
 
 4. **Results**: The system will output results indicating the likelihood of depression.
 
@@ -45,8 +45,36 @@ Please note that this system is intended for research and educational purposes a
 Ensure you have access to relevant text data for depression detection. You can use publicly available datasets or collect your own data, considering privacy and ethical considerations.
 
 ## Installation
+## Dependencies
 
-1. Clone this repository to your local machine:
+The project relies on several Python libraries, including but not limited to:
 
-   ```bash
-   git clone https://github.com/yourusername/depression-detection.git
+- NumPy
+- pandas
+- scikit-learn
+- NLTK (Natural Language Toolkit)
+- Flask (for web interfaces)
+
+Ensure you have these libraries installed to run the project successfully.
+
+## Contributing
+
+Contributions to this project are welcome! If you'd like to contribute code improvements, feature enhancements, or documentation, please follow these steps:
+Please adhere to the project's coding standards and guidelines.
+
+## Dataset
+You can access the dataset used in this project by following this [Dataset Link](https://example.com/dataset).
+
+## Flowchart
+Here is the project flowchart for a visual representation of how the system works:
+
+![Flowchart](flowchart.png)
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.md).
+
+Always prioritize the well-being and privacy of individuals when working with mental health-related data.
+
+Feel free to explore, contribute, and use this system responsibly!
+
