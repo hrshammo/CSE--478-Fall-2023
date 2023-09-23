@@ -55,7 +55,9 @@ Annually
 ## Flowchart
 Here is the project flowchart for a visual representation of how the system works:
 
-![Flowchart](flowchart.png)
+
+![Flowchart](https://github.com/hrshammo/CSE--478-Fall-2023/assets/76872754/c9da892b-7c20-420b-a9a9-0db4a34b0e15)
+
 
 ## Installation
 ## Dependencies
