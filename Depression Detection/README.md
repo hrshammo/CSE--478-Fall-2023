@@ -21,11 +21,6 @@ Depression is a prevalent mental health condition that affects millions of peopl
 
 ## Features
 
-- **Text Analysis**: The system analyzes text data for linguistic cues associated with depression.
-- **Machine Learning**: Utilizes machine learning models for classification and prediction.
-- **User Interface**: A user-friendly interface for interacting with the system.
-- **Privacy**: Ensures the privacy and confidentiality of user data.
-
 ## Usage
 
 To use the Depression Detection System:
