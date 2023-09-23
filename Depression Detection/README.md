@@ -55,8 +55,7 @@ Annually
 ## Flowchart
 Here is the project flowchart for a visual representation of how the system works:
 
-
-![Flowchart](https://github.com/hrshammo/CSE--478-Fall-2023/assets/76872754/c9da892b-7c20-420b-a9a9-0db4a34b0e15)
+![Basic Flowchart](https://github.com/hrshammo/CSE--478-Fall-2023/assets/76872754/2d7e611e-032a-48a0-994d-1dff48b8b8c2)![Flowchart](https://github.com/hrshammo/CSE--478-Fall-2023/assets/76872754/c9da892b-7c20-420b-a9a9-0db4a34b0e15)
 
 
 ## Installation
