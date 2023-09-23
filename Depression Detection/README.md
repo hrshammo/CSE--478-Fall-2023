@@ -63,7 +63,7 @@ Contributions to this project are welcome! If you'd like to contribute code impr
 Please adhere to the project's coding standards and guidelines.
 
 ## Dataset
-You can access the dataset used in this project by following this [Dataset Link](https://example.com/dataset).
+You can access the dataset used in this project by following this [Suicide and Depression Detection]([https://example.com/dataset](https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch?fbclid=IwAR1dNFNpod_tQCAV6iaBmoBDMSEq-5_LERu1xsTaydG8gNnS-KcdvB2Li54)).
 
 ## Flowchart
 Here is the project flowchart for a visual representation of how the system works:
