@@ -7,12 +7,11 @@ Welcome to the Depression Detection System using Python project! This project ai
 - [Introduction](#introduction)
 - [Features](#features)
 - [Usage](#usage)
-- [Data](#data)
+- [Dataset](#dataset)
+- [Flowchart](#flowchart)
 - [Installation](#installation)
 - [Dependencies](#dependencies)
 - [Contributing](#contributing)
-- [Dataset](#dataset)
-- [Flowchart](#flowchart)
 - [License](#license)
 
 ## Introduction
@@ -35,9 +34,25 @@ To use the Depression Detection System:
 
 Please note that this system is intended for research and educational purposes and should not replace professional medical advice.
 
-## Data
+## Dataset
+You can access the dataset used in this project by following this [Suicide and Depression Detection
+ ]( https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch?fbclid=IwAR1dNFNpod_tQCAV6iaBmoBDMSEq-5_LERu1xsTaydG8gNnS-KcdvB2Li54).  
+ **About Dataset**
 
-Ensure you have access to relevant text data for depression detection. You can use publicly available datasets or collect your own data, considering privacy and ethical considerations.
+The dataset is a collection of posts from the "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, were collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021. All posts collected from SuicideWatch are labeled as suicide, While posts collected from the depression subreddit are labeled as depression. Non-suicide posts are collected from r/teenagers.
+
+**License**
+
+CC BY-SA 4.0
+
+**Expected update frequency**
+
+Annually
+
+## Flowchart
+Here is the project flowchart for a visual representation of how the system works:
+
+![Flowchart](flowchart.png)
 
 ## Installation
 ## Dependencies
@@ -57,25 +72,7 @@ Ensure you have these libraries installed to run the project successfully.
 Contributions to this project are welcome! If you'd like to contribute code improvements, feature enhancements, or documentation, please follow these steps:
 Please adhere to the project's coding standards and guidelines.
 
-## Dataset
-You can access the dataset used in this project by following this [Suicide and Depression Detection
- ]( https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch?fbclid=IwAR1dNFNpod_tQCAV6iaBmoBDMSEq-5_LERu1xsTaydG8gNnS-KcdvB2Li54).
-**About Dataset**
 
-The dataset is a collection of posts from the "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, were collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021. All posts collected from SuicideWatch are labeled as suicide, While posts collected from the depression subreddit are labeled as depression. Non-suicide posts are collected from r/teenagers.
-
-**License**
-
-CC BY-SA 4.0
-
-**Expected update frequency**
-
-Annually
-
-## Flowchart
-Here is the project flowchart for a visual representation of how the system works:
-
-![Flowchart](flowchart.png)
 
 ## License
 
