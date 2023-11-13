@@ -1,91 +1,56 @@
-# Depression Detection System using Python
-
-Welcome to the Depression Detection System using Python project! This initiative is dedicated to building a system that can effectively contribute to the early detection of depression. It achieves this through the application of advanced machine learning and natural language processing (NLP) techniques.
-
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Flowchart](#flowchart)
-- [Installation](#installation)
-- [Dependencies](#dependencies)
-- [Contributing](#contributing)
-- [License](#license)
+# Depression Symptoms Detection
 
 ## Introduction
-
-Depression is a prevalent mental health condition that affects millions of people worldwide. Early detection and intervention are crucial for better outcomes. This project harnesses the power of Natural Language Processing (NLP) techniques and Convolutional Neural Networks (CNNs) to create a system that can analyze textual data, such as social media posts or survey responses, to identify signs of depression.
-
+This project aims to detect depression symptoms in pregnant women using machine learning algorithms such as Decision Tree, Random Forest, and K-Nearest Neighbors (KNN). The dataset utilized contains various parameters related to depression symptoms in pregnancy.
 
 ## Features
+The dataset comprises the following columns:
+- Timestamp
+- Age
+- Feeling sad or Tearful
+- Irritable towards baby & partner
+- Trouble sleeping at night
+- Problems concentrating or making decisions
+- Overeating or loss of appetite
+- Feeling anxious
+- Feeling of guilt
+- Problems of bonding with the baby
+- Suicidal tendencies
 
 ## Usage
-
-Utilizing the Depression Detection System involves the following steps, harnessing the power of natural language processing (NLP) techniques and Convolutional Neural Networks (CNN):
-
-1. **Data Collection**: Gather data from users or relevant sources, such as social media posts or surveys. This data will serve as the input for the analysis.
-
-2. **Data Preprocessing**: Prior to analysis, preprocess the collected data to ensure it is clean and properly formatted. This step is crucial for accurate results.
-
-3. **System Execution**: Execute the system, taking advantage of advanced natural language processing techniques and CNN. Provide the preprocessed data as input to the system.
-
-4. **Interpret the Results**: Upon execution, the system will generate results indicating the likelihood of depression based on the analysis. Interpret these results to identify potential signs of depression.
-
-Please keep in mind that this system is designed for research and educational purposes and should not replace professional medical advice. The integration of NLP techniques and CNN enhances the accuracy and effectiveness of the analysis.
-
+1. The main purpose is to analyze and predict depression symptoms in pregnant women.
+2. The algorithms employed for this analysis are Decision Tree, Random Forest, and KNN.
 
 ## Dataset
-You can access the dataset used in this project by following this [Suicide and Depression Detection
- ]( https://www.kaggle.com/datasets/nikhileswarkomati/suicide-watch?fbclid=IwAR1dNFNpod_tQCAV6iaBmoBDMSEq-5_LERu1xsTaydG8gNnS-KcdvB2Li54).  
- **About Dataset**
-
-The dataset is a collection of posts from the "SuicideWatch" and "depression" subreddits of the Reddit platform. The posts are collected using Pushshift API. All posts that were made to "SuicideWatch" from Dec 16, 2008(creation) till Jan 2, 2021, were collected while "depression" posts were collected from Jan 1, 2009, to Jan 2, 2021. All posts collected from SuicideWatch are labeled as suicide, While posts collected from the depression subreddit are labeled as depression. Non-suicide posts are collected from r/teenagers.
-
-**License**
-
-CC BY-SA 4.0
-
-**Expected update frequency**
-
-Annually
+The dataset used is "Pregnancy Women Depression Symptoms Dataset" containing various columns describing symptoms of depression among pregnant women.
 
 ## Flowchart
-Here is the project flowchart for a visual representation of how the system works:
-![Step By Step detection of  depression symptoms Infographic Graph ](https://github.com/hrshammo/CSE--478-Fall-2023/assets/76872754/c79df409-b77f-4b6c-ac3b-89f506cfdaf2)
+![Step By Step Branding Tips Infographic Graph (1)](https://github.com/hrshammo/CSE--478-Fall-2023/assets/76872754/b9b5f39d-154b-4184-8662-6aeaf2995c84)
 
+## Model Performance
+After training the models, the achieved accuracies are as follows:
 
+- Decision Tree Model Accuracy: [Your Accuracy Value]
+- Random Forest Model Accuracy: [Your Accuracy Value]
+- KNN Model Accuracy: [Your Accuracy Value]
 
-
+Validation Accuracy:
+- Decision Tree Model Validation Accuracy: [Your Validation Accuracy]
+- Random Forest Model Validation Accuracy: [Your Validation Accuracy]
+- KNN Model Validation Accuracy: [Your Validation Accuracy]
 
 ## Installation
+No specific installation is necessary for the README. However, ensure you have the required Python packages and dependencies listed in the next section for running the algorithms.
+
+
 ## Dependencies
-
-The success of this project hinges on the utilization of various Python libraries, with a particular focus on those supporting natural language processing (NLP) techniques and Convolutional Neural Networks (CNNs). The key libraries include:
-
-- NumPy
-- pandas
-- scikit-learn
-- NLTK (Natural Language Toolkit)
-- TensorFlow and Keras (for advanced NLP and CNN implementation)
-
-To ensure the smooth operation of the project and take full advantage of its natural language processing capabilities, it is crucial to have these libraries properly installed. They empower the system with the tools needed for effective text analysis and depression detection.
-
+Ensure you have the following dependencies installed:
+- Python
+- Libraries: (List the required libraries such as Pandas, Scikit-learn, etc.)
 
 ## Contributing
-
-Contributions to this project are welcome! If you'd like to contribute code improvements, feature enhancements, or documentation, please follow these steps:
-Please adhere to the project's coding standards and guidelines.
-
-
+If you wish to contribute, feel free to suggest improvements, additional algorithms, or provide enhanced analysis methods.
 
 ## License
-
-This project is licensed under the [MIT License](LICENSE.md).
-
-Always prioritize the well-being and privacy of individuals when working with mental health-related data.
-
-Feel free to explore, contribute, and use this system responsibly!
+[Specify the license information for the project]
 
